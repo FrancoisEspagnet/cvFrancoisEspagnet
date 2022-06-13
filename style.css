@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zone30{
+    width: 30%;
+    background-color: steelblue;
+    color: white;
+}
+
+.zone70{
+    width: 70%;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+header .zone30 a img{
+    display: block;
+	width: 50%;
+	border-radius: 80%;
+	margin: 5% 25%;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
